@@ -22,10 +22,20 @@ const Level2 = styled.h2` //H2 styling
 color: #FFF;
 text-align: center;
 font-family: "Yeseva One";
-font-size: 2.25rem;
+font-size: 1.5rem;
 font-style: normal;
 font-weight: 400;
 margin: 0;
+
+  // Tablet styling
+  @media (min-width: 768px) {
+    font-size: 2.25rem;
+  }
+
+  // Desktop styling
+  @media (min-width: 1200px) {
+    font-size: 4rem;
+  }
 `
 
 const Level3 = styled.h3` //Heading pop-up
@@ -67,7 +77,7 @@ color: #FFF;
 text-align: center;
 font-family: "Josefin Sans";
 font-size: 1.5rem;
-font-weight: 300;
+font-weight: 400;
 line-height: 1.95rem;
 `;
 

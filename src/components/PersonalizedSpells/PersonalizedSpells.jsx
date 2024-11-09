@@ -106,6 +106,7 @@ const PopupContent = styled.div`
 export const PersonalizedSpells = ({ quotesData }) => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
+
   const togglePopup = () => {
     setIsPopupOpen(!isPopupOpen);
   };
